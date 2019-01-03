@@ -1,0 +1,55 @@
+// 引入dase
+@import "./dase.less";
+
+
+
+#main {
+    position: relative; /* 会在main里面添加一个区域滚动容器 MUI自带了绝对定位 可以main设置相对定位 让 mui-scroll-wrapper相对main去定位 */
+    padding: .45rem 0;
+    height: 100%;
+    #nav {
+        padding: .1rem;
+        a {
+            display: block;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    #banner {
+       padding: 0 .1rem;
+        .left{
+            a {
+                display: flex;
+                img{
+                    height: 1.2rem;
+                    width: 50%;
+                }
+            }
+        }
+        .right{
+            a{
+                display: block;
+                img{
+                    height: 2.4rem;
+                    width: 100%;
+                }   
+            }
+        }
+    }
+    #movement,
+    #woman,
+    #man{
+        padding: .1rem;
+        a{
+           display: block;
+            img{
+                width: 100%;
+            }
+        }
+        img{
+            width: 100%;
+        }
+    }
+}
+

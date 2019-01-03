@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+img {
+  vertical-align: middle;
+}
+body {
+  height: 100vh;
+  padding: .45rem 0;
+}
